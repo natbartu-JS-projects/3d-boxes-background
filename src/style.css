@@ -15,3 +15,16 @@ body {
   overflow: hidden;
   margin: 0;
 }
+
+.magic {
+  background-color: #ff7700;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  top: 20px;
+  letter-spacing: 1px;
+  box-shadow: 0 3px rgba(79, 71, 67, 0.5);
+}
