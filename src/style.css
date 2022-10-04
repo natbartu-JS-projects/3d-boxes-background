@@ -13,7 +13,6 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
-  margin: 0;
 }
 
 .magic {
@@ -28,7 +27,7 @@ body {
   position: fixed;
   top: 20px;
   letter-spacing: 1px;
-  box-shadow: 0 3px black;
+  border: 1px solid black;
   z-index: 100;
 }
 
@@ -41,15 +40,6 @@ body {
   transform: translateY(2px);
 }
 
-.boxes.big {
-  height: 600px;
-  width: 600px;
-}
-
-.boxes.big .box {
-  transform: rotateZ(360deg);
-}
-
 .boxes {
   display: flex;
   position: relative;
@@ -58,6 +48,15 @@ body {
   height: 500px;
   width: 500px;
   transition: 0.4s ease;
+}
+
+.boxes.big {
+  height: 600px;
+  width: 600px;
+}
+
+.boxes.big .box {
+  transform: rotateZ(360deg);
 }
 
 .box {
