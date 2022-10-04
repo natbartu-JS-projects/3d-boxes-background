@@ -17,12 +17,13 @@ body {
 }
 
 .magic {
-  background-color: #ff7700;
+  background-color: #f2c26b;
   color: black;
   font-family: 'Poppins', sans-serif;
   border: none;
   border-radius: 3px;
   font-size: 16px;
+  padding: 12px 20px;
   cursor: pointer;
   position: fixed;
   top: 20px;
@@ -40,12 +41,25 @@ body {
   transform: translateY(2px);
 }
 
-.box {
+.boxes.big {
+  height: 600px;
+  width: 600px;
+}
 
+.boxes {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 500px;
+  width: 500px;
 }
 
 .box {
-  background: #f5c15f;
+  background-image: url("https://media0.giphy.com/media/8CSflsMG1IFos/giphy.gif?cid=ecf05e47uq4g93iup2a03v0ozibquuxvwdpw7pwlpze7pfd8&rid=giphy.gif&ct=g");
   height: 125px;
   width: 125px;
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+  position: relative;
 }
