@@ -20,7 +20,7 @@ body {
   background-color: #f2c26b;
   color: black;
   font-family: 'Poppins', sans-serif;
-  border: none;
+  border: 0;
   border-radius: 3px;
   font-size: 16px;
   padding: 12px 20px;
